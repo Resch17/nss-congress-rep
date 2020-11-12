@@ -1,0 +1,71 @@
+* {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  color: #e7e7e7;
+}
+
+body {
+  background-color: #333333;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Oxygen', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5D8093;
+}
+
+section {
+  width: 65%;
+  margin: 0 auto 1em;
+}
+
+.democrat {
+  color: #75b6da;
+}
+
+.rep__header h2 {
+  text-align: center;
+}
+
+.rep__bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em auto;
+}
+
+.rep__bio div {
+  margin-left: 1em;
+}
+
+.rep__bio img {
+  border-radius: 5px;
+}
+
+.rep__article section {
+  border: 2px solid #ffffffaa;
+  border-radius: 2px;
+}
+
+.rep__article ul {
+  margin: 0 0 0.5em 2em;
+}
+
+.rep__article section h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.rep__legislation li {
+  max-width: 40em;
+}
